@@ -37,5 +37,5 @@ def main():
     with open("todo_all_employees.json", 'w', encoding="utf-8") as jsonfile:
         json.dump(all_user_json, jsonfile)
 
-if __name == '__main__':
+if __name__ == '__main__':
     main()
