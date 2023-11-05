@@ -2,7 +2,7 @@
 """
 api that uses the get method to
 get number of done tasks by users
-using CSV
+and exported in json format
 """
 
 
@@ -22,7 +22,7 @@ def main():
 
     req_rep1 = req_rep1.json()
     req_rep2 = req_rep2.json()
-    
+
     filename = (f"{sys.argv[1]}.json")
 
     with open(filename, 'W', newline='') as csvfile:
