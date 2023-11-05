@@ -31,3 +31,6 @@ def main():
         for data in req_rep1:
             data_writer.writerow([data["userId"], req_rep2["username"],
                                  data["completed"], data["title"]])
+
+if __name__ == '__main__':
+    main()
