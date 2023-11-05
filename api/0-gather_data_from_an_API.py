@@ -4,6 +4,7 @@ api that uses the get method to
 get number of done tasks by users
 """
 
+
 def main(employee_todo_progress):
     import json
     import sys
@@ -27,11 +28,9 @@ def main(employee_todo_progress):
             continue
         completed_task.append(task)
 
-
     number_of_completed = len(completed_tasks)
     number_of_all_tasks = len(response1)
     employee_name = response2["name"]
-
 
     print(f"Employee {employee_name} is done with tasks ({number_of_completed}/{number_of_all_tasks}")
     for tasks in completed_tasks:
