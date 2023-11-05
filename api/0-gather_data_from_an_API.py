@@ -32,6 +32,7 @@ def main(employee_todo_progress):
     number_of_all_tasks = len(response1)
     employee_name = response2["name"]
 
-    print(f"Employee {employee_name} is done with tasks ({number_of_completed}/{number_of_all_tasks}")
+    print(f"Employee {employee_name} is done with tasks \
+            ({number_of_completed}/{number_of_all_tasks}")
     for tasks in completed_tasks:
         print(f"\t {comp_tasks['title']}")
