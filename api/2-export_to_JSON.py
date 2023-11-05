@@ -22,8 +22,8 @@ def main():
 
     req_rep1 = req_rep1.json()
     req_rep2 = req_rep2.json()
- 
-    filename = (f"{sys.argv[1]}.csv")
+    
+    filename = (f"{sys.argv[1]}.json")
 
     with open(filename, 'W', newline='') as csvfile:
         data_writer = csv.writer(csvfile, delimiter=",", quotechar='"',
