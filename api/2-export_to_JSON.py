@@ -9,8 +9,8 @@ and exported in json format
 def main():
     import csv
     import json
+    import requests
     import sys
-    import urllib.request
 
     employee_id = sys.argv[1]
     url1 = "https://jsonplaceholder.typicode.com/todos"
